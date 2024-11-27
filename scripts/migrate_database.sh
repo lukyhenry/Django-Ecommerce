@@ -6,4 +6,4 @@ source venv/bin/activate
 
 # Create Migration Database
 python manage.py migrate >> log/preparing_install.log 2>&1
-python manage.py collectstatic >> log/preparing_install.log 2>&1
+python manage.py collectstatic --noinput >> log/preparing_install.log 2>&1
