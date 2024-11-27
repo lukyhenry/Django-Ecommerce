@@ -6,7 +6,7 @@ chmod 755 -R /home/ubuntu/django-app
 
 # create log installation
 cd /home/ubuntu/django-app
-mkdir log
+mkdir -p log
 
 # Install Dependencies
 echo "Starting install_dependencies.sh" > log/install_dependencies.log
